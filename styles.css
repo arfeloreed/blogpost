@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+span {
+    color: orangered;
+    font-weight: bold;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 20% 0 25%;
+    background-color: #AA77FF;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0 0 0.5rem;
+}
+
+header p {
+    width: 50%;
+    margin: 0 auto;
+    border-bottom: 1px solid;
+    padding: 0 1rem 1.5rem;
+}
+
+p {
+    font-size: 0.8rem;
+    line-height: 1.5;
+}
+
+hr {
+    color:#BDCDD6;
+    width: 50%;
+    size: 8px;
+}
+
+footer {
+    background-color: #AA77FF;
+    margin-top: 3rem;
+}
+
+.typography {
+    width: 50%;
+    text-align: left;
+    margin: 0 auto 4rem;
+}
+
+.typography .date-blog {
+    font-size: 0.8rem;
+    margin: 3.5rem 0;
+    text-align: center;
+}
+
+.typography h2 + p {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.quote {
+    margin-left: 1.5rem;
+    font-style: italic;
+    border-left: 3px solid orange;
+    padding-left: 1rem;
+}
+
+.quoted-person {
+    font-weight: 700;
+}
+
+.container {
+    width: 50%;
+    text-align: left;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.container h3 {
+    text-transform: capitalize;
+}
+
+.box h3 {
+    margin: 1.5rem 0;
+}
+
+.footer {
+    width: 50%;
+    height: 10vh;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 1.3rem 0;
+}
+
+.footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.8rem;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
